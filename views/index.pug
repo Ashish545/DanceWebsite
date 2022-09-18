@@ -1,0 +1,71 @@
+
+html
+  head 
+    title Ashish 
+    title Ashish Dance Academy
+    style 
+      include ../static/style.css
+  body 
+    nav#navbar
+      ul
+          div#logo 
+              img(src="/static/logoo/d1.png")
+              | AK Dance
+          li #[a(href="/") Home ]
+          li #[a(href="/") About ]
+          li #[a(href="/") Services ]
+          li #[a(href="/") Class Info ]
+          li #[a(href="/") Contact Us ]
+
+    section#introsection    
+      
+      div.big Welcome To Ashish's Dance Academy
+      div.small Eat Sleep Dance Repeat
+
+
+    section#missionSection 
+      h2 Our Mission
+      div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="/static/logoo/lo.png")
+            div.card-content 
+              p This is the best website where you can explore your skill with no limitations and have geek fun online as well 
+              //- p This is the best website where you can explore your skill with no limitations and have geek fun  
+      div.card
+          h3 Dance The way You Like
+         
+          div.card-box
+            div.card-img
+              img(src="/static/logoo/lo2.png")
+            div.card-content 
+              p We have hired experiened dace teachers who will teach you and enhance your skill in their expertise and share valuable experience
+      div.card
+          h3 Expert Teaching
+        
+          div.card-box
+            div.card-img
+              img(src="/static/logoo/lo3.png")
+
+            div.card-content 
+              p join us and be a part of our Ashish's Dance Academy with show your talent have scholorship as well
+    section#sponsorSection    
+      h2 Our sponsor
+      div#sponsors
+        img(src="/static/logoo/micro.png", alt="Sponsor Image",class="spImage") 
+        img(src="/static/logoo/apple1.png", alt="Sponsor Image",class="spImage") 
+        img(src="/static/logoo/a2.png", alt="Sponsor Image",class="spImage") 
+        img(src="/static/logoo/k2.png", alt="Sponsor Image",class="spImage") 
+        //- img(src="/static/logoo/s2.png", alt="Sponsor Image",class="spImage") 
+
+
+
+    footer#footer   
+     
+      | copyright © 2022 AshishDanceAcademy.com  |  All right reserved
+      | Designed by Ashish
+
+
+      script 
+          include ../static/index.js    

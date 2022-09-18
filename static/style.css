@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-right:45rem */
+
+    
+}
+#navbar{
+    background-color: #c02121;
+
+    padding: 1px 5px;
+    font-family: 'Baloo 2', cursive;
+}
+
+#navbar li{
+    list-style: none;
+    
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+    padding: 13px 20px;
+
+    /* font-size: larger; */
+
+}
+#navbar li a:hover{
+    color: black;
+
+}
+
+#introsection{
+    background: center/cover  no-repeat url("/static/pexels-vishnu-r-nair-1105666.jpg");
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 172px;
+    
+    
+    /* color:black; */
+    justify-content: center;
+    /* font-family: 'Baloo 2', cursive; */
+    /* font-family: 'Orbitron', sans-serif;  */
+    font-family: 'Staatliches', cursive;
+    
+    font-size: 2.5rem;
+    
+    align-items: center;
+    height: 400px;
+    /* background-color: yellow; */
+    
+}
+
+#introSection div.small{
+    font-size: 29px;
+}
+#sponsorSection {
+    height: 24px;
+    background-color: rgb(150, 150, 138);
+    padding-top:12px
+    
+    
+}
+
+#footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 21px;
+    color:white;
+    font-family: 'Baloo 2', cursive;
+    margin-top:10rem;
+
+
+}
+#introSection div.big{
+    font-weight: 400;
+    color: black;
+}
+
+#sponsorSection h2{
+    
+    justify-content: center;
+    text-align: center;
+    padding-top:23px;
+    font-family: 'Baloo 2', cursive;
+    
+}
+
+#missionSection h2{
+    
+    justify-content: center;
+    text-align: center;
+    padding-top:7px;
+    font-family: 'Baloo 2', cursive;
+    /* height: 160px; */
+
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    width: 28%;
+    margin: 14px 40px;
+    height: 165px;
+    border-radius: 10px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    
+}
+#logo img {
+    height:70px;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+}
+.card-img img{ 
+    height: inherit;
+    
+}
+.card-content p{
+    font-size: large;
+    
+    font-family: 'Baloo 2', cursive;
+    padding:-1x 27px;
+}
+#sponsors{
+    height: 200px;
+    margin: auto;
+    max-width: 900px;
+    margin-left: 302px;
+}
+.spImage{
+    margin:26px;
+    height: 81PX;
+}
+#logo img p{
+
+    color:wheat;
+}

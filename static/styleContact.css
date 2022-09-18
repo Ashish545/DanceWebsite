@@ -1,0 +1,46 @@
+*{
+  padding:0%;
+
+  margin:0%;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 39px;
+
+}
+.myInput{
+    width: 60%;
+    margin: 12px 12px;
+    padding: 8px;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+.myForm{
+    display:flex;
+    flex-direction: column;
+    /* width: 40%; */
+    justify-content: center;
+    align-items: center;
+    margin: 12px 12px;
+    margin:15px;
+
+    
+}
+.btn{
+    /* color:blueviolet; */
+    padding: 8px 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #c02121;
+    color: white;
+    cursor: pointer;
+}
+
+.btn :hover{
+
+    background-color: green;
+    color:black;
+}
